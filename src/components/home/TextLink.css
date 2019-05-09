@@ -1,0 +1,17 @@
+a.textLink {
+  text-decoration: none;
+}
+
+a.textLink:hover {
+  border-bottom: 1px #000 dashed;
+  padding-bottom: 0.22em;
+}
+
+a.textLink:link,
+a.textLink:hover,
+a.textLink:visited,
+a.textLink.active {
+  color: #000;
+}
+
+/* https: ; //github.com/facebook/create-react-app/issues/1765 */
